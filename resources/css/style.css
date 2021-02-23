@@ -39,6 +39,7 @@ html {
 header {
   position: fixed;
   width: 100%;
+  height: 85px;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
 }
@@ -46,7 +47,7 @@ header {
 header .content {
   display: flex;
   align-items: center;
-  padding: 1.875rem;
+  padding: 30px;
 }
 
 header .logo {
@@ -71,6 +72,7 @@ nav a {
 header .icon {
   width: 1rem;
   padding-left: .75rem;
+  padding-right: 30px;
 }
 
 header .mobile {
@@ -113,19 +115,20 @@ header .mobile {
 /* Sign Up Section */
 
 #sign-up-section {
-  position: relative;
-  width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+  background-image: url('../images/banner-landingpage.jpg')
 }
 
 #sign-up-cta {
-  padding: 0 5rem 2.5rem 5rem;
+  position: relative;
+  top: 170px;
+  left: 100px;
   border: solid 1px #979797;
   border-radius: 4px;
-  background-color: #9dc20b;
+  background-color: #9dc20a;
 }
 
 #sign-up-cta .content {
@@ -160,6 +163,7 @@ header .mobile {
 
 #sign-up-cta .button {
   margin-top: 1.625rem;
+  margin-bottom: 56px;
   padding: 1.25rem 7.25rem;
 }
 
