@@ -306,11 +306,10 @@ header .mobile {
 }
 
 #filters-section .image-container {
-  width: 270px;
-  height: 270px;
   display: inline-block;
   padding: 0 1%;
 }
+
 
 #filters-section .images-container {
   max-width: 100%;
