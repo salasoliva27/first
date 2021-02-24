@@ -237,6 +237,10 @@ header .mobile {
   margin: 0 auto;
 }
 
+.feature .content{
+  padding: 40px;
+}
+
 .feature h2 {
   padding-bottom: .5rem;
   font-size: 2.25rem;
@@ -328,7 +332,7 @@ header .mobile {
   }
 
   #filters-section .images-container {
-    padding: 0;
+    padding: 0 1%;
     display: flex;
     max-width: 100%;
   }
