@@ -119,7 +119,9 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
-  background-image: url('../images/banner-landingpage.jpg')
+  background-image: url('../images/banner-landingpage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #sign-up-cta {
@@ -164,6 +166,8 @@ header .mobile {
 #sign-up-cta .button {
   margin-top: 1.625rem;
   margin-bottom: 56px;
+  margin-left: 85px;
+  margin-right: 85px;
   padding: 1.25rem 7.25rem;
 }
 
@@ -327,6 +331,8 @@ header .mobile {
 
   #filters-section .images-container {
     padding: 0;
+    display: flex;
+    max-width: 100%;
   }
 
   #filters-section .extra {
