@@ -333,7 +333,7 @@ header .mobile {
 
   #filters-section .images-container {
     padding: 0 1%;
-    display: flex;
+    display: inline-block;
     max-width: 100%;
   }
 
