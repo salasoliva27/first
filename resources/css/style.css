@@ -305,6 +305,13 @@ header .mobile {
   color: white;
 }
 
+#filters-section .image-container {
+  width: 270px;
+  height: 270px;
+  display: inline-block;
+  padding: 0 1%;
+}
+
 #filters-section .images-container {
   max-width: 100%;
   display: inline-block;
